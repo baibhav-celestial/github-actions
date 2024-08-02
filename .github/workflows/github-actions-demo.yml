@@ -1,0 +1,10 @@
+name: Github Actions Demo First Workflow
+on: [workflow_dispatch]
+jobs: 
+  first-job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Welcome the user
+        run:  echo "hello user!"
+      - name: see off the user
+        run: echo "Bye bye user!"
