@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Welcome the user
-        run:  echo "hello user!"
+        run:  |
+            echo "hello user!"
+            echo "This is a demo for github actions"
       - name: see off the user
         run: echo "Bye bye user!"
